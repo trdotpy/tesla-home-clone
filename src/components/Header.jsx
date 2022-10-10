@@ -8,10 +8,10 @@ const Header = () => {
 
     return (
         <>
-            <div className="fixed flex z-10 top-0 left-0 right-0 justify-between items-center p-6 pt-4 cursor-pointer">
+            <div className="fixed flex z-10 top-0 left-0 right-0 justify-between items-center p-6 pt-4 cursor-pointer ml-4">
                 {/* ---LOGO--- */}
-                <div className="object-contain w-24 mr-24">
-                    <a href="#">
+                <div className="object-contain w-28 mr-24">
+                    <a href="/">
                         <svg
                             class="tds-icon tds-icon-logo-wordmark tds-site-logo-icon"
                             viewBox="0 0 342 35"
@@ -26,7 +26,7 @@ const Header = () => {
                 </div>
 
                 {/* ---CENTER LINKS--- */}
-                <div className="flex no-underline text-black font-medium text-sm gap-x-10 cursor-pointer ">
+                <div className="flex no-underline text-[#1C2026] font-medium text-sm gap-x-10 cursor-pointer ">
                     <p>Model S</p>
                     <p>Model 3</p>
                     <p>Model X</p>
@@ -36,9 +36,13 @@ const Header = () => {
                 </div>
 
                 {/* ---RIGHT LINKS--- */}
-                <div className="flex items-center no-underline text-black font-medium text-sm z-0 relative gap-x-10 cursor-pointer">
+                <div className="flex items-center no-underline text-[#1C2026] font-medium text-sm z-0 relative gap-x-10 cursor-pointer">
                     <p>Shop</p>
-                    <p>Account</p>
+
+                    <Link to="/account">
+                        <p>Account</p>
+                    </Link>
+
                     {/* ---MENU DRAWER--- */}
                     <p
                         className="cursor-pointer"
@@ -49,7 +53,7 @@ const Header = () => {
                 </div>
             </div>
 
-            {/* Slide Out Menu */}
+            {/* Side Menu */}
             {menuOpen && (
                 <div className="fixed right-0 bg-white z-10 h-screen w-[300px] shadow-lg">
                     <div className="right-0 absolute m-4">
@@ -61,49 +65,49 @@ const Header = () => {
                     <div className="flex flex-col justify-start mt-12 text-sm">
                         <ul>
                             <li className="px-12 mt-12 list-none text-[#393D41]">
-                                <a href="#">Existing Inventory</a>
+                                <a href="/">Existing Inventory</a>
                             </li>
                             <li className="px-12 mt-4 list-none text-[#393D41]">
-                                <a href="#">Used Inventory</a>
+                                <a href="/">Used Inventory</a>
                             </li>
                             <li className="px-12 mt-4 list-none text-[#393D41]">
-                                <a href="#">Trade-In</a>
+                                <a href="/">Trade-In</a>
                             </li>
                             <li className="px-12 mt-4 list-none text-[#393D41]">
-                                <a href="#">Test Drive</a>
+                                <a href="/">Test Drive</a>
                             </li>
                             <li className="px-12 mt-4 list-none text-[#393D41]">
-                                <a href="#">Insurance</a>
+                                <a href="/">Insurance</a>
                             </li>
                             <li className="px-12 mt-4 list-none text-[#393D41]">
-                                <a href="#">Cybertruck</a>
+                                <a href="/">Cybertruck</a>
                             </li>
                             <li className="px-12 mt-4 list-none text-[#393D41]">
-                                <a href="#">Roadster</a>
+                                <a href="/">Roadster</a>
                             </li>
                             <li className="px-12 mt-4 list-none text-[#393D41]">
-                                <a href="#">Semi</a>
+                                <a href="/">Semi</a>
                             </li>
                             <li className="px-12 mt-4 list-none text-[#393D41]">
-                                <a href="#">Charging</a>
+                                <a href="/">Charging</a>
                             </li>
                             <li className="px-12 mt-4 list-none text-[#393D41]">
-                                <a href="#">Powerwall</a>
+                                <a href="/">Powerwall</a>
                             </li>
                             <li className="px-12 mt-4 list-none text-[#393D41]">
-                                <a href="#">Commercial Energy</a>
+                                <a href="/">Commercial Energy</a>
                             </li>
                             <li className="px-12 mt-4 list-none text-[#393D41]">
-                                <a href="#">Utilities</a>
+                                <a href="/">Utilities</a>
                             </li>
                             <li className="px-12 mt-4 list-none text-[#393D41]">
-                                <a href="#">Find Us</a>
+                                <a href="/">Find Us</a>
                             </li>
                             <li className="px-12 mt-4 list-none text-[#393D41]">
-                                <a href="#">Support</a>
+                                <a href="/">Support</a>
                             </li>
                             <li className="px-12 mt-4 list-none text-[#393D41]">
-                                <a href="#">Investor Relations</a>
+                                <a href="/">Investor Relations</a>
                             </li>
                         </ul>
                     </div>

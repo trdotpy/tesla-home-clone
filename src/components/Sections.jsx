@@ -1,5 +1,5 @@
 import React from 'react'
-import { GrDown } from 'react-icons/gr'
+
 
 const Sections = ({ product }) => {
     return (
@@ -29,13 +29,6 @@ const Sections = ({ product }) => {
                 </div>
 
                 {/* ---ARROW--- */}
-                {/* <div className='flex items-center justify-center text-gray-600'>
-                    <GrDown 
-                        style={{
-                            animation: 'animateDown infinite 1.5s',
-                        }}
-                    />
-                </div> */}
             </div>
         </div>
     )

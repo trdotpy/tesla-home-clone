@@ -65,12 +65,6 @@ const Hero = () => {
             ))}
         </div>
 
-        // <div
-        //     className="h-screen w-screen bg-center bg-cover bg-no-repeat"
-        //     style={{
-        //         backgroundImage: `url("https://res.cloudinary.com/drij60fru/image/upload/v1665407743/M3-Homepage-Desktop-LHD_nzcdzg.jpg")`,
-        //     }}
-        // ></div>
     )
 }
 
