@@ -1,22 +1,18 @@
 <h1 align="center">
   <br>
-  <a href=""><img src="" alt="" width="200"></a>
   <br>
-  Tesla: Clone
+Tesla Clone
   <br>
 </h1>
 
-<h4 align="center">This is a clone of the <a href="http://tesla.com" target="_blank">Tesla</a> homepage.</h4>
+<img src="./src/assets/tsla-clone-screenshot.png">
 
 <p align="center">
-  <a href="#key-features">Technology Used</a> |
-  <a href="#how-to-use">Live Demo</a> |
-  <a href="#download">Download</a> |
+  <a href="#technology-used">Technology Used</a> |
+  <a href="https://tesla-clone-trdotpy.vercel.app/">Live Demo</a> |
   <a href="#contact">Contact</a> |
   <a href="#license">License</a>
 </p>
-
-<!-- ![screenshot]() -->
 
 ## Technology Used
 
@@ -25,7 +21,7 @@ This software uses the following open source packages:
 -   [React](http://electron.atom.io/)
 -   [TailwindCSS](https://nodejs.org/)
 
----
+<img src="./src/assets/tsla-clone-screenshot-2.png">
 
 ## How To Use
 
@@ -46,12 +42,6 @@ $ npm install
 # Run the app
 $ npm start
 ```
-
-### Download
-
-You can also [download](https://github.com/trdotpy/tesla-clone) the latest version of this repository for Windows, macOS and Linux.
-
----
 
 ## Contact
 
