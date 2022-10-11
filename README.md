@@ -9,7 +9,7 @@ Tesla Clone
 
 <p align="center">
   <a href="#technology-used">Technology Used</a> |
-  <a href="https://tesla-clone-trdotpy.vercel.app/">Live Demo</a> |
+  <a href="https://tesla-home-clone.vercel.app/">Live Demo</a> |
   <a href="#contact">Contact</a> |
   <a href="#license">License</a>
 </p>
@@ -18,8 +18,8 @@ Tesla Clone
 
 This software uses the following open source packages:
 
-- [React](http://electron.atom.io/)
-- [TailwindCSS](https://nodejs.org/)
+- [React](https://reactjs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
 
 ## How To Use
 
