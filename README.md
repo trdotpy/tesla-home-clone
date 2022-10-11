@@ -18,10 +18,8 @@ Tesla Clone
 
 This software uses the following open source packages:
 
--   [React](http://electron.atom.io/)
--   [TailwindCSS](https://nodejs.org/)
-
-<img src="./src/assets/tsla-clone-screenshot-2.png">
+- [React](http://electron.atom.io/)
+- [TailwindCSS](https://nodejs.org/)
 
 ## How To Use
 
